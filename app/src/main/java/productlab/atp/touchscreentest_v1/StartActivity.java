@@ -101,7 +101,7 @@ public class StartActivity extends AppCompatActivity {
 
                 //  Send database in email
                 Intent i = new Intent(Intent.ACTION_SEND);
-                i.putExtra(Intent.EXTRA_EMAIL, new String[]{"chelsea.daniels@ucdenver.edu"});
+                i.putExtra(Intent.EXTRA_EMAIL, new String[]{""});
                 i.putExtra(Intent.EXTRA_SUBJECT, "Event Data Database Sending");
                 i.setType("application/octet-stream");
                 i.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(backupDB));
