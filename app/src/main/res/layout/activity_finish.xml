@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/finish_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F51B5">
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:onClick="saveDatabase"
+        android:scaleType="centerCrop"
+        android:src="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="You're DONE!"
+        android:textAlignment="center"
+        android:textColor="#E8EAF6"
+        android:textSize="50dp" />
+
+</RelativeLayout>
